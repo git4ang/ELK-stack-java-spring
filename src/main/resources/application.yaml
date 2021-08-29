@@ -1,0 +1,10 @@
+---
+server:
+  port: 8080
+spring:
+  application:
+    name: elk-stack-spring-javaEE
+
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
